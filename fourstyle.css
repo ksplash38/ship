@@ -1,0 +1,153 @@
+@charset "utf-8";
+/* CSS Document */
+@media all and (max-width:64.7em){
+html, body
+{   
+	height: 100%;
+}
+
+body
+{
+	margin: 0px;
+	padding: 0px;
+	background: #fff;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 12pt;
+	font-weight: 300;
+	color: #000000;
+}
+
+.body_pad{
+	padding-left:5em;
+position:relative;
+padding-right:9em;
+}
+.welcome{float:left;
+
+}
+.search2 , .search1{float:right;
+margin-top:0.5em;
+}
+
+.menu_background {background-color:yellow;
+height:74px;
+clear:both;
+width:100%;
+}
+.Godwin{color:#fff;
+width:20em;
+height:74px;
+margin-left:1em;
+float:left;
+line-height: 15%;
+}
+
+.menu{float:right;
+    list-style-type: none;
+	position: absolute;
+	top:6.0em;
+	right: 18em;
+	border-radius: 1em
+}
+ li {display:inline;
+ color:#fff;
+ }
+ 
+.menu ul li:after {
+content: " | ";
+}
+.menu ul li a{color:white;
+text-decoration: none;}
+
+.menu ul li a:hover {background-color:white;
+color:black;
+font-weight: 700;
+padding:0.7em 1em 1em 1em;
+border-radius:9px;
+}
+
+.menu .first li a.active{background-color:whit;
+
+font-weight: 900;
+padding:0.5em 1em 1em 1em;
+border-radius:9px;
+text-decoration: overline;
+
+}
+
+
+.greybox{background-color:#f1eff0;
+height:13em;
+width:10em;
+float:left;
+margin-top:40px;
+padding-left:1em;
+padding-top:0.5em;
+}
+
+p {font-size: 80%;
+line-height: 1.5%
+}
+
+.greybox p span{color:red;
+}
+
+.greybox p a {text-decoration: none;}
+
+.slider{float:left;
+margin-top:2.5em;
+margin-left:3.9em;
+}
+
+.trackbox{background-color:#dc291e;
+height:13em;
+width:11em;
+float:right;
+margin-top:40px;
+padding-left:1em;
+padding-top:0.5em;
+color:#fff;
+margin-left:-0.2em;
+margin-bottom:4em;
+}
+.reduce{font-size: 70%;
+}
+
+
+
+.written{background-color:yello;
+height:20em;
+width:10em;
+clear:both;
+
+}
+
+.written-word{ font-weight: bold;
+	font-size: 80%;
+    line-height: 1.5%
+	}
+.border-bottom{border-bottom:1px solid #CCC;
+width:100%;
+margin-top:1em;
+
+}
+
+.buzz{margin-top:2em;
+font-size: 80%;
+text-decoration: none; 
+width:100%; 
+margin-left:-3em;
+}
+ .schedule a { color:red;
+  text-decoration: none;
+  margin-top:0.7em;
+  margin-left:-0.1em;
+  font-weight: 200;
+  }
+}
+
+
+
+
+
+
